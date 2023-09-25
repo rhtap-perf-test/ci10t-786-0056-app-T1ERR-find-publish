@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-hybg
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoup_perfscale/ci10t-786-0056-tenant/ci10t-786-0056-app/devfile-sample-hybg@sha256:b4c099e58d8504d14eecb86328a52275de73f6607ede7b0323026e52bfac221e
+        name: my-nodejs
+        resources: {}
+status: {}
