@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-hybg
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/stonesoup_perfscale/ci10t-786-0056-tenant/ci10t-786-0056-app/devfile-sample-hybg@sha256:b4c099e58d8504d14eecb86328a52275de73f6607ede7b0323026e52bfac221e
         name: my-nodejs
         ports:
         - containerPort: 3001
